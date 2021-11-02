@@ -36,7 +36,8 @@
     #lezioni .row>.left,
     #lezioni .row>.right {
         text-align: center;
-        
+        width: 90%;
+        margin: auto;
     }
 }
   
@@ -50,6 +51,29 @@
   
   #steps {
     text-align: center;
+  }
+
+  @media screen and (max-width: 420px) {
+    #steps .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+  @media screen and (max-width: 420px) {
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+  }
+
+  @media screen and (max-width:420px) {
+      #steps .row .central img {
+          margin-top: 1em;
+      }
   }
   
   /* BLOCCO PERCHE */
