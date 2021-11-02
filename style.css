@@ -8,6 +8,7 @@
 @media screen and (max-width: 420px) {
     .row {
         font-size: 1em;
+        margin-top: 0em;
         width: 100%;
     }
 }
